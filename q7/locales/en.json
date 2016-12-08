@@ -1,0 +1,11 @@
+{
+	"hello": "Hello World!",
+	"connected_ok": "Successfully connected to MongoDB.",
+	"connection_closed": "Db connection closed by application.",
+	"search_start": "Image search start...",
+	"search_processing": "Image search and processing",
+	"total_img_found": "There are %s images in collection.",
+	"total_img_tagged": "%s images tagged %s",
+	"total_img_orphaned": "%s orphan images have been found.",
+	"img_removed": "Img #%s has been removed"
+}
