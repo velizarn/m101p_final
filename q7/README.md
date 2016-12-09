@@ -73,7 +73,7 @@ db.getCollection('images').find({"tags": {$elemMatch: {$eq: "kittens"}}}).count(
 
 ### How to
 
-1) Download files from **data** directory and import them intoyour local MongoDB:
+1) Download files from **data** directory and import them into your local MongoDB:
 
 ~~~
 mongoimport --drop -d photos -c albums C:/path-to-file/albums.json
