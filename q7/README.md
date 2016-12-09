@@ -129,6 +129,8 @@ Db connection closed by application.
 
 ### Resources
 
+- https://docs.mongodb.com/manual/
+- https://robomongo.org/
 - http://speakingjs.com/
 - http://www.guru99.com/node-js-mongodb.html
 - https://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html
