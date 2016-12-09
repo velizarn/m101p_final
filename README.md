@@ -1,1 +1,2 @@
-# m101p_final
+# M101P: MongoDB for Developers Final Exam
+
