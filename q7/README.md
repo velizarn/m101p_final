@@ -127,6 +127,8 @@ Db connection closed by application.
 
 ...and the answer is: **After removing orphan images there are 44 822 images tagged 'kittens'.**
 
+Note: _If you see number other than this, please drop the images collection and mongoimport it again, following the instructions in point 1)_
+
 ### Resources
 
 - https://docs.mongodb.com/manual/
