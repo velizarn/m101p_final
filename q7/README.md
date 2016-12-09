@@ -90,7 +90,9 @@ npm install
 
 This command will install mondodb driver for nodejs  and optional modules _i18n-2_ and _sprintf_.
 
-4) Finally you can run app.js script
+4) Make sure you have a mongod running version 3.2.x of MongoDB
+
+5) Finally you can run app.js script
 
 ~~~
 > node C:/path-to-file/app.js
@@ -104,7 +106,6 @@ Image search start...
 There are 100 000 images in collection.
 Image search and processing: 7995ms
 ...
-Img #99952 to be removed
 Img #99954 to be removed
 Img #99974 to be removed
 Img #99980 to be removed
@@ -126,6 +127,8 @@ Db connection closed by application.
 ~~~
 
 ...and the answer is: **After removing orphan images there are 44 822 images tagged 'kittens'.**
+
+Note: _If you see number other than this, please drop the images collection and mongoimport it again, following the instructions in point 1)_
 
 ### Resources
 
